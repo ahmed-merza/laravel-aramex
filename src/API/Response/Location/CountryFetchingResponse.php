@@ -12,7 +12,7 @@ class CountryFetchingResponse extends Response
     /**
      * @return array
      */
-    public function getCountry(): array
+    public function getCountry()
     {
         return $this->country;
     }
